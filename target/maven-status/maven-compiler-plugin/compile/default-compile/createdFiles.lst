@@ -1,0 +1,13 @@
+com\promineotech\gameStatTracker\App.class
+com\promineotech\gameStatTracker\controller\GameController.class
+com\promineotech\gameStatTracker\entity\Player.class
+com\promineotech\gameStatTracker\service\PlayerService.class
+com\promineotech\gameStatTracker\service\PlayerGameService.class
+com\promineotech\gameStatTracker\controller\PlayerController.class
+com\promineotech\gameStatTracker\entity\Game.class
+com\promineotech\gameStatTracker\repository\PlayerRepository.class
+com\promineotech\gameStatTracker\repository\GameRepository.class
+com\promineotech\gameStatTracker\controller\PlayerGameController.class
+com\promineotech\gameStatTracker\entity\PlayerGame.class
+com\promineotech\gameStatTracker\service\GameService.class
+com\promineotech\gameStatTracker\repository\PlayerGameRepository.class

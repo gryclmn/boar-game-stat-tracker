@@ -1,51 +1,53 @@
 package com.promineotech.gameStatTracker.controller;
 
 import com.promineotech.gameStatTracker.entity.Game;
-import com.promineotech.gameStatTracker.service.GameService;
+import com.promineotech.gameStatTracker.entity.PlayerGame;
+import com.promineotech.gameStatTracker.service.PlayerGameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/games")
-public class GameController {
+@RequestMapping("/playergame")
+public class PlayerGameController {
 
     @Autowired
-    private GameService service;
+    private PlayerGameService service;
 
     @RequestMapping(value="/{id}", method= RequestMethod.GET)
-    public ResponseEntity<Object> getGame(@PathVariable Long id) {
+    public ResponseEntity<Object> getPlayerGame(@PathVariable Long id) {
         try {
-            return new ResponseEntity<Object>(service.getGameById(id), HttpStatus.OK);
+            return new ResponseEntity<Object>(service.getPlayerGameById(id), HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<Object>(e.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
 
     @RequestMapping(method= RequestMethod.GET)
-    public ResponseEntity<Object> getGames() {
-        return new ResponseEntity<Object>(service.getGames(), HttpStatus.OK);
+    public ResponseEntity<Object> getPlayerGames() {
+        return new ResponseEntity<Object>(service.getPlayerGames(), HttpStatus.OK);
     }
 
     @RequestMapping(method=RequestMethod.POST)
-    public ResponseEntity<Object> createGame(@RequestBody Game game) {
-        return new ResponseEntity<Object>(service.createGame(game), HttpStatus.CREATED);
+    public ResponseEntity<Object> createPlayerGame(@RequestBody PlayerGame playerGame) {
+        return new ResponseEntity<Object>(service.createPlayerGame(playerGame), HttpStatus.CREATED);
     }
 
     @RequestMapping(value="/{id}", method=RequestMethod.PUT)
-    public ResponseEntity<Object> updateGame(@RequestBody Game game, @PathVariable Long id) {
+    public ResponseEntity<Object> updatePlayerGame(@RequestBody Game game, @PathVariable Long id) {
         try {
-            return new ResponseEntity<Object>(service.updateGame(game, id), HttpStatus.OK);
+//            return new ResponseEntity<Object>(service.updatePlayerGame(game, id), HttpStatus.OK);
+            return new ResponseEntity<Object>(null, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<Object>(e.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
 
     @RequestMapping(value="/{id}", method=RequestMethod.DELETE)
-    public ResponseEntity<Object> deleteGame(@PathVariable Long id) {
+    public ResponseEntity<Object> deletePlayerGame(@PathVariable Long id) {
         try {
-            service.deleteGame(id);
+            service.deletePlayerGame(id);
             return new ResponseEntity<Object>("Successfully deleted game with id: " + id, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<Object>(e.getMessage(), HttpStatus.NOT_FOUND);

@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f161c78-e9d8-41f2-b190-969c0943d0cd" name="Default Changelist" comment="" />
+    <list default="true" id="8f161c78-e9d8-41f2-b190-969c0943d0cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/PlayerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerGameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerGameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/controller/GameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/controller/PlayerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/controller/PlayerGameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/entity/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/entity/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/entity/PlayerGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/repository/GameRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/repository/PlayerGameRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/repository/PlayerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/service/GameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/service/PlayerGameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/promineotech/gameStatTracker/service/PlayerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/GameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,43 +45,42 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="782">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/GameRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="697">
+              <caret line="41" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/GameController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -58,17 +88,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="918">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="8" selection-end-line="54" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/PlayerGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerGameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="612">
+              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerGameService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -84,35 +132,48 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>board</find>
       <find>boardG</find>
+      <find>board</find>
+      <find>game</find>
     </findStrings>
     <replaceStrings>
       <replace>g</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/GameService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/GameRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/PlayerGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerGameRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerGameService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerGameController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="761" />
-    <option name="y" value="-8" />
-    <option name="width" value="785" />
-    <option name="height" value="916" />
+    <option name="x" value="1682" />
+    <option name="width" value="1703" />
+    <option name="height" value="1447" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,13 +243,23 @@
               <item name="gameStatTracker" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gameStatTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameStatTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -221,19 +292,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="-8" width="785" height="916" extended-state="0" />
+    <frame x="1682" y="0" width="1703" height="1447" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24827586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -241,17 +309,46 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24954352" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="62" lean-forward="true" selection-start-column="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -259,73 +356,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="782">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="697">
+          <caret line="41" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/GameService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="918">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="8" selection-end-line="54" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/GameRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/repository/PlayerGameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/entity/PlayerGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/service/PlayerGameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/promineotech/gameStatTracker/controller/PlayerGameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
         </state>
       </provider>
     </entry>

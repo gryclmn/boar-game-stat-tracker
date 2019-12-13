@@ -1,4 +1,6 @@
 package com.promineotech.gameStatTracker.repository;
 
-public class GameRepository {
-}
+import com.promineotech.gameStatTracker.entity.Game;
+import org.springframework.data.repository.CrudRepository;
+
+public interface GameRepository extends CrudRepository<Game, Long> {}
