@@ -1,0 +1,552 @@
+2019-12-16 11:29:56.990  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Starting App on Gary-C-Laptop with PID 7740 (started by Gary in C:\Coleman\Development\Promineo Tech\3.Spring\Final Project\gameStatTracker)
+2019-12-16 11:29:57.036  INFO Gary-C-Laptop
+            --- [cker.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b2ef82: startup date [Mon Dec 16 11:29:57 MST 2019]; root of context hierarchy
+2019-12-16 11:29:57.711  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-12-16 11:29:58.298  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-12-16 11:29:58.487  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$68a0ca6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:29:58.521  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:29:58.537  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:29:58.544  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:29:59.165  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 11:29:59.300  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-12-16 11:29:59.305  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-12-16 11:29:59.429  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-12-16 11:29:59.433  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2400 ms
+2019-12-16 11:30:00.104  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 11:30:00.111  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 11:30:00.112  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 11:30:00.386  INFO Gary-C-Laptop
+            --- [cker.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-16 11:30:00.403  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-16 11:30:00.502  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-12-16 11:30:00.507  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-12-16 11:30:00.509  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-12-16 11:30:00.677  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-12-16 11:30:01.628  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-16 11:30:01.799  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-16 11:30:02.490  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-12-16 11:30:03.058  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-12-16 11:30:03.598  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b2ef82: startup date [Mon Dec 16 11:29:57 MST 2019]; root of context hierarchy
+2019-12-16 11:30:03.703  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGame(java.lang.Long)
+2019-12-16 11:30:03.706  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.deleteGame(java.lang.Long)
+2019-12-16 11:30:03.707  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.createGame(com.promineotech.gameStatTracker.entity.Game)
+2019-12-16 11:30:03.707  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGames()
+2019-12-16 11:30:03.709  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.updateGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:30:03.710  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getPlayer(java.lang.Long)
+2019-12-16 11:30:03.710  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.updatePlayer(com.promineotech.gameStatTracker.entity.Player,java.lang.Long)
+2019-12-16 11:30:03.712  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getCustomers()
+2019-12-16 11:30:03.712  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.createPlayer(com.promineotech.gameStatTracker.entity.Player)
+2019-12-16 11:30:03.719  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGame(java.lang.Long)
+2019-12-16 11:30:03.721  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGames()
+2019-12-16 11:30:03.721  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.updatePlayerGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:30:03.722  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.deletePlayerGame(java.lang.Long)
+2019-12-16 11:30:03.722  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.createPlayerGame(com.promineotech.gameStatTracker.requests.PlayerGameRequest)
+2019-12-16 11:30:03.725  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:30:03.726  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:30:03.761  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:30:03.764  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:30:03.809  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:30:03.992  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-16 11:30:04.037  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:30:04.052  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:30:04.066  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-12-16 11:30:04.089  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-16 11:30:04.094  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Started App in 7.415 seconds (JVM running for 12.5)
+2019-12-16 11:30:13.827  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 11:30:13.830  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 11:30:13.862  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2019-12-16 11:30:21.863 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerResult = com.promineotech.gameStatTracker.view.PlayerResult@100ddd2c
+2019-12-16 11:30:21.901 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerResult = com.promineotech.gameStatTracker.view.PlayerResult@34f7dbb3
+2019-12-16 11:31:36.163 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-7] c.p.g.s.GameService                      : *GJC* playerResult = com.promineotech.gameStatTracker.view.PlayerResult@4e78368f
+2019-12-16 11:31:36.193 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-7] c.p.g.s.GameService                      : *GJC* playerResult = com.promineotech.gameStatTracker.view.PlayerResult@4a47bb1f
+2019-12-16 11:33:43.301  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Starting App on Gary-C-Laptop with PID 268 (started by Gary in C:\Coleman\Development\Promineo Tech\3.Spring\Final Project\gameStatTracker)
+2019-12-16 11:33:43.346  INFO Gary-C-Laptop
+            --- [cker.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@383d9fe4: startup date [Mon Dec 16 11:33:43 MST 2019]; root of context hierarchy
+2019-12-16 11:33:44.006  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-12-16 11:33:44.585  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-12-16 11:33:44.758  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f9a1429] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:33:44.791  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:33:44.804  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:33:44.810  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:33:45.478  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 11:33:45.616  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-12-16 11:33:45.620  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-12-16 11:33:45.739  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-12-16 11:33:45.742  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2400 ms
+2019-12-16 11:33:46.470  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 11:33:46.478  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 11:33:46.478  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 11:33:46.731  INFO Gary-C-Laptop
+            --- [cker.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-16 11:33:46.749  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-16 11:33:46.847  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-12-16 11:33:46.852  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-12-16 11:33:46.855  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-12-16 11:33:47.035  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-12-16 11:33:47.966  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-16 11:33:48.148  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-16 11:33:48.787  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-12-16 11:33:49.324  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-12-16 11:33:49.883  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@383d9fe4: startup date [Mon Dec 16 11:33:43 MST 2019]; root of context hierarchy
+2019-12-16 11:33:49.982  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGame(java.lang.Long)
+2019-12-16 11:33:49.985  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.updateGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:33:49.986  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.deleteGame(java.lang.Long)
+2019-12-16 11:33:49.987  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGames()
+2019-12-16 11:33:49.987  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.createGame(com.promineotech.gameStatTracker.entity.Game)
+2019-12-16 11:33:49.988  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getPlayer(java.lang.Long)
+2019-12-16 11:33:49.989  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.updatePlayer(com.promineotech.gameStatTracker.entity.Player,java.lang.Long)
+2019-12-16 11:33:49.990  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getCustomers()
+2019-12-16 11:33:49.991  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.createPlayer(com.promineotech.gameStatTracker.entity.Player)
+2019-12-16 11:33:49.993  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGame(java.lang.Long)
+2019-12-16 11:33:49.998  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGames()
+2019-12-16 11:33:49.999  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.createPlayerGame(com.promineotech.gameStatTracker.requests.PlayerGameRequest)
+2019-12-16 11:33:50.000  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.updatePlayerGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:33:50.000  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.deletePlayerGame(java.lang.Long)
+2019-12-16 11:33:50.002  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:33:50.003  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:33:50.038  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:33:50.041  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:33:50.092  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:33:50.291  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-16 11:33:50.333  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:33:50.347  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:33:50.362  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-12-16 11:33:50.384  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-16 11:33:50.388  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Started App in 7.418 seconds (JVM running for 12.794)
+2019-12-16 11:33:55.755  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 11:33:55.758  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 11:33:55.789  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2019-12-16 11:34:03.372 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerResult.playerId = 2
+2019-12-16 11:34:03.375 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerGame.id = null
+2019-12-16 11:34:03.413 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerResult.playerId = 1
+2019-12-16 11:34:03.416 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerGame.id = 1
+2019-12-16 11:35:11.307  INFO Gary-C-Laptop
+            --- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@383d9fe4: startup date [Mon Dec 16 11:33:43 MST 2019]; root of context hierarchy
+2019-12-16 11:35:19.791  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Starting App on Gary-C-Laptop with PID 9996 (started by Gary in C:\Coleman\Development\Promineo Tech\3.Spring\Final Project\gameStatTracker)
+2019-12-16 11:35:19.829  INFO Gary-C-Laptop
+            --- [cker.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b57612b: startup date [Mon Dec 16 11:35:19 MST 2019]; root of context hierarchy
+2019-12-16 11:35:20.510  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-12-16 11:35:21.101  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-12-16 11:35:21.279  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0c672f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:35:21.318  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:35:21.331  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:35:21.337  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:35:21.995  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 11:35:22.124  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-12-16 11:35:22.129  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-12-16 11:35:22.249  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-12-16 11:35:22.253  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2427 ms
+2019-12-16 11:35:22.925  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 11:35:22.932  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 11:35:22.933  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 11:35:23.191  INFO Gary-C-Laptop
+            --- [cker.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-16 11:35:23.209  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-16 11:35:23.303  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-12-16 11:35:23.307  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-12-16 11:35:23.310  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-12-16 11:35:23.501  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-12-16 11:35:24.438  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-16 11:35:24.606  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-16 11:35:25.269  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-12-16 11:35:25.755  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-12-16 11:35:26.300  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b57612b: startup date [Mon Dec 16 11:35:19 MST 2019]; root of context hierarchy
+2019-12-16 11:35:26.399  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGame(java.lang.Long)
+2019-12-16 11:35:26.402  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.createGame(com.promineotech.gameStatTracker.entity.Game)
+2019-12-16 11:35:26.403  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.updateGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:35:26.404  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.deleteGame(java.lang.Long)
+2019-12-16 11:35:26.405  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGames()
+2019-12-16 11:35:26.406  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getPlayer(java.lang.Long)
+2019-12-16 11:35:26.407  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getCustomers()
+2019-12-16 11:35:26.408  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.updatePlayer(com.promineotech.gameStatTracker.entity.Player,java.lang.Long)
+2019-12-16 11:35:26.409  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.createPlayer(com.promineotech.gameStatTracker.entity.Player)
+2019-12-16 11:35:26.410  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGame(java.lang.Long)
+2019-12-16 11:35:26.416  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGames()
+2019-12-16 11:35:26.417  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.createPlayerGame(com.promineotech.gameStatTracker.requests.PlayerGameRequest)
+2019-12-16 11:35:26.418  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.deletePlayerGame(java.lang.Long)
+2019-12-16 11:35:26.418  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.updatePlayerGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:35:26.420  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:35:26.421  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:35:26.456  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:35:26.458  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:35:26.501  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:35:26.693  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-16 11:35:26.729  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:35:26.739  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:35:26.757  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-12-16 11:35:26.779  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-16 11:35:26.784  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Started App in 7.291 seconds (JVM running for 12.28)
+2019-12-16 11:35:33.852  INFO Gary-C-Laptop
+            --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 11:35:33.855  INFO Gary-C-Laptop
+            --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 11:35:33.892  INFO Gary-C-Laptop
+            --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2019-12-16 11:35:39.970 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerResult.playerId = 2
+2019-12-16 11:35:39.973 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerGame.id = null
+2019-12-16 11:35:40.008 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerResult.playerId = 1
+2019-12-16 11:35:40.011 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] c.p.g.s.GameService                      : *GJC* playerGame.id = 1
+2019-12-16 11:35:40.038 ERROR Gary-C-Laptop
+            --- [nio-8080-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: identifier of an instance of com.promineotech.gameStatTracker.entity.PlayerGame was altered from 1 to null; nested exception is org.hibernate.HibernateException: identifier of an instance of com.promineotech.gameStatTracker.entity.PlayerGame was altered from 1 to null] with root cause
+org.hibernate.HibernateException: identifier of an instance of com.promineotech.gameStatTracker.entity.PlayerGame was altered from 1 to null
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.checkId(DefaultFlushEntityEventListener.java:80)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.getValues(DefaultFlushEntityEventListener.java:192)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.onFlushEntity(DefaultFlushEntityEventListener.java:152)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:231)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:102)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:55)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:77)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:757)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:726)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:521)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:291)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodIntercceptor.invoke(CrudMethodMetadataPostProcessor.java:122)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy104.save(Unknown Source)
+	at com.promineotech.gameStatTracker.service.PlayerGameService.createPlayerGame(PlayerGameService.java:66)
+	at com.promineotech.gameStatTracker.controller.PlayerGameController.createPlayerGame(PlayerGameController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1526)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1482)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-16 11:38:53.118  INFO Gary-C-Laptop
+            --- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b57612b: startup date [Mon Dec 16 11:35:19 MST 2019]; root of context hierarchy
+2019-12-16 11:39:01.708  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Starting App on Gary-C-Laptop with PID 16740 (started by Gary in C:\Coleman\Development\Promineo Tech\3.Spring\Final Project\gameStatTracker)
+2019-12-16 11:39:01.751  INFO Gary-C-Laptop
+            --- [cker.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40719cea: startup date [Mon Dec 16 11:39:01 MST 2019]; root of context hierarchy
+2019-12-16 11:39:02.447  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-12-16 11:39:02.983  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-12-16 11:39:03.173  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e98b8a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:39:03.203  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:39:03.220  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:39:03.228  INFO Gary-C-Laptop
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 11:39:03.826  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 11:39:03.983  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-12-16 11:39:03.987  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-12-16 11:39:04.110  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-12-16 11:39:04.113  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2365 ms
+2019-12-16 11:39:04.804  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-16 11:39:04.810  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-16 11:39:04.810  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-16 11:39:05.058  INFO Gary-C-Laptop
+            --- [cker.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-16 11:39:05.079  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-16 11:39:05.177  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-12-16 11:39:05.182  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-12-16 11:39:05.186  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-12-16 11:39:05.359  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-12-16 11:39:06.311  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-16 11:39:06.494  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-16 11:39:07.126  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-12-16 11:39:07.673  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-12-16 11:39:08.245  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40719cea: startup date [Mon Dec 16 11:39:01 MST 2019]; root of context hierarchy
+2019-12-16 11:39:08.344  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.createGame(com.promineotech.gameStatTracker.entity.Game)
+2019-12-16 11:39:08.347  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.updateGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:39:08.348  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGames()
+2019-12-16 11:39:08.348  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.deleteGame(java.lang.Long)
+2019-12-16 11:39:08.349  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.GameController.getGame(java.lang.Long)
+2019-12-16 11:39:08.350  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.updatePlayer(com.promineotech.gameStatTracker.entity.Player,java.lang.Long)
+2019-12-16 11:39:08.351  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.createPlayer(com.promineotech.gameStatTracker.entity.Player)
+2019-12-16 11:39:08.352  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getCustomers()
+2019-12-16 11:39:08.352  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerController.getPlayer(java.lang.Long)
+2019-12-16 11:39:08.353  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGames()
+2019-12-16 11:39:08.354  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.createPlayerGame(com.promineotech.gameStatTracker.requests.PlayerGameRequest)
+2019-12-16 11:39:08.355  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.updatePlayerGame(com.promineotech.gameStatTracker.entity.Game,java.lang.Long)
+2019-12-16 11:39:08.361  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.getPlayerGame(java.lang.Long)
+2019-12-16 11:39:08.362  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.gameStatTracker.controller.PlayerGameController.deletePlayerGame(java.lang.Long)
+2019-12-16 11:39:08.363  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:39:08.364  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-12-16 11:39:08.398  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:39:08.400  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:39:08.448  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-16 11:39:08.632  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-16 11:39:08.677  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:39:08.689  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-12-16 11:39:08.704  INFO Gary-C-Laptop
+            --- [cker.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-12-16 11:39:08.726  INFO Gary-C-Laptop
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-16 11:39:08.731  INFO Gary-C-Laptop
+            --- [cker.App.main()] c.p.g.App                                : Started App in 7.304 seconds (JVM running for 12.596)
+2019-12-16 11:39:16.157  INFO Gary-C-Laptop
+            --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-16 11:39:16.160  INFO Gary-C-Laptop
+            --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-16 11:39:16.190  INFO Gary-C-Laptop
+            --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms

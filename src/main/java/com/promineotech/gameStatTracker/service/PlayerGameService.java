@@ -2,6 +2,8 @@ package com.promineotech.gameStatTracker.service;
 
 import com.promineotech.gameStatTracker.entity.PlayerGame;
 import com.promineotech.gameStatTracker.repository.PlayerGameRepository;
+import com.promineotech.gameStatTracker.requests.PlayerGameRequest;
+import com.promineotech.gameStatTracker.view.PlayerResult;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,12 @@ public class PlayerGameService {
 
     @Autowired
     private PlayerGameRepository repo;
+
+    @Autowired
+    private PlayerService playerService;
+
+    @Autowired
+    private GameService gameService;
 
     public PlayerGame getPlayerGameById(Long id) throws Exception {
         try {
@@ -28,8 +36,23 @@ public class PlayerGameService {
         return repo.findAll();
     }
 
-    public PlayerGame createPlayerGame(PlayerGame playerGame) {
-        return repo.save(playerGame);
+    // TODO return GameSession here? Need new GameSession View?
+    public PlayerGame createPlayerGame(PlayerGameRequest playerGameRequest) {
+        for (PlayerResult result : playerGameRequest.getPlayerResults()) {
+
+            PlayerGame playerGame = new PlayerGame(
+                    playerGameRequest.getDatePlayed(),
+                    gameService.getGameById(playerGameRequest.getGameId()),
+                    playerService.getPlayerById(result.getPlayerId()),
+                    result.getIsWinner(),
+                    result.getRank(),
+                    result.getPoints()
+            );
+
+            repo.save(playerGame);
+        }
+
+        return new PlayerGame();
     }
 
 

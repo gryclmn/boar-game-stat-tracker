@@ -15,7 +15,7 @@ public class GameService {
     @Autowired
     private GameRepository repo;
 
-    public Game getGameById(Long id) throws Exception {
+    public Game getGameById(Long id) {
         try {
             return repo.findOne(id);
         } catch (Exception e) {

@@ -1,5 +1,7 @@
 package com.promineotech.gameStatTracker.entity;
 
+import com.promineotech.gameStatTracker.service.GameService;
+import com.promineotech.gameStatTracker.service.PlayerService;
 import javax.persistence.*;
 import java.util.Date;
 
@@ -10,9 +12,32 @@ public class PlayerGame {
     private Date datePlayed;
     private Game game;
     private Player player;
+//    private Long gameId;
+//    private Long playerId;
     private Boolean playerWon;
     private Integer playerRank;
     private Double playerPoints;
+
+    private GameService gameService = new GameService();
+    private PlayerService playerService = new PlayerService();
+
+    public PlayerGame(
+            Date datePlayed,
+            Game game,
+            Player player,
+            Boolean playerWon,
+            Integer playerRank,
+            Double playerPoints
+    ) {
+        this.datePlayed = datePlayed;
+        this.game = game;
+        this.player = player;
+        this.playerWon = playerWon;
+        this.playerRank = playerRank;
+        this.playerPoints = playerPoints;
+    }
+
+    public PlayerGame() {}
 
     // TODO: Shouldn't ID be specific to each game SESSION, and not a new ID for each row?
     @Id
@@ -33,8 +58,8 @@ public class PlayerGame {
         this.datePlayed = datePlayed;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "game")
+    @ManyToOne(cascade = {CascadeType.ALL})
+    @JoinColumn(name = "game_id")
     public Game getGame() {
         return game;
     }
@@ -43,8 +68,8 @@ public class PlayerGame {
         this.game = game;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "player")
+    @ManyToOne(cascade = {CascadeType.ALL})
+    @JoinColumn(name = "player_id")
     public Player getPlayer() {
         return player;
     }
@@ -52,6 +77,26 @@ public class PlayerGame {
     public void setPlayer(Player player) {
         this.player = player;
     }
+
+//    @ManyToOne
+//    @JoinColumn(name = "game_id")
+//    public Long getGameId() {
+//        return gameId;
+//    }
+//
+//    public void setGameId(Long gameId) {
+//        this.gameId = gameId;
+//    }
+//
+//    @ManyToOne
+//    @JoinColumn(name = "player_id")
+//    public Long getPlayerId() {
+//        return playerId;
+//    }
+//
+//    public void setPlayerId(Long playerId) {
+//        this.playerId = playerId;
+//    }
 
     public Boolean getPlayerWon() {
         return playerWon;

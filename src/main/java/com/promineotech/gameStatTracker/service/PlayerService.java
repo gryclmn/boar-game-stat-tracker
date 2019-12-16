@@ -15,7 +15,7 @@ public class PlayerService {
     @Autowired
     private PlayerRepository repo;
 
-    public Player getPlayerById(Long id) throws Exception {
+    public Player getPlayerById(Long id) {
         try {
             return repo.findOne(id);
         } catch (Exception e) {

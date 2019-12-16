@@ -14,6 +14,9 @@ public class Game {
     @JsonIgnore
     private Set<PlayerGame> playerGames;
 
+    public Game() {}
+    public Game(String string) {}
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
@@ -32,7 +35,7 @@ public class Game {
         this.name = name;
     }
 
-    @OneToMany(mappedBy = "player")
+    @OneToMany(mappedBy = "game")
     public Set<PlayerGame> getPlayerGames() {
         return playerGames;
     }

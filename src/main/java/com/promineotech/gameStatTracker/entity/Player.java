@@ -15,8 +15,8 @@ public class Player {
     @JsonIgnore
     private Set<PlayerGame> playerGames;
 
-//    @JsonIgnore
-//    private Set<Player> gameHistory;
+    public Player() {}
+    public Player(String string) {}
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
