@@ -55,9 +55,6 @@ public class PlayerGameService {
         return new PlayerGame();
     }
 
-    // TODO - this is not working because HTTP has playerId and gameId instead of player and game objects
-    // May need to use a PlayerGameRequest here just like createPlayerGame() above?
-
     public PlayerGame updatePlayerGame(PlayerGameRequest playerGameRequest, Long id) throws Exception {
         try {
             PlayerResult result = playerGameRequest.getPlayerResults().iterator().next();
@@ -78,22 +75,6 @@ public class PlayerGameService {
             throw new Exception("Unable to update PlayerGame.");
         }
     }
-
-//    public PlayerGame updatePlayerGame(PlayerGame playerGame, Long id) throws Exception {
-//        try {
-//            PlayerGame oldPlayerGame = repo.findOne(id);
-//            oldPlayerGame.setDatePlayed(playerGame.getDatePlayed());
-//            oldPlayerGame.setGame(playerGame.getGame());
-//            oldPlayerGame.setPlayer(playerGame.getPlayer());
-//            oldPlayerGame.setPlayerWon(playerGame.getPlayerWon());
-//            oldPlayerGame.setPlayerRank(playerGame.getPlayerRank());
-//            oldPlayerGame.setPlayerPoints(playerGame.getPlayerPoints());
-//            return repo.save(oldPlayerGame);
-//        } catch (Exception e) {
-//            logger.error("Exception occurred while trying to update a PlayerGame: " + id, e);
-//            throw new Exception("Unable to update PlayerGame.");
-//        }
-//    }
 
     public void deletePlayerGame(Long id) throws Exception {
         try {

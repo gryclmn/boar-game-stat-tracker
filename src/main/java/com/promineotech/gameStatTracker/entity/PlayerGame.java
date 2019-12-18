@@ -12,8 +12,6 @@ public class PlayerGame {
     private Date datePlayed;
     private Game game;
     private Player player;
-//    private Long gameId;
-//    private Long playerId;
     private Boolean playerWon;
     private Integer playerRank;
     private Double playerPoints;
@@ -39,7 +37,6 @@ public class PlayerGame {
 
     public PlayerGame() {}
 
-    // TODO: Shouldn't ID be specific to each game SESSION, and not a new ID for each row?
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
@@ -77,26 +74,6 @@ public class PlayerGame {
     public void setPlayer(Player player) {
         this.player = player;
     }
-
-//    @ManyToOne
-//    @JoinColumn(name = "game_id")
-//    public Long getGameId() {
-//        return gameId;
-//    }
-//
-//    public void setGameId(Long gameId) {
-//        this.gameId = gameId;
-//    }
-//
-//    @ManyToOne
-//    @JoinColumn(name = "player_id")
-//    public Long getPlayerId() {
-//        return playerId;
-//    }
-//
-//    public void setPlayerId(Long playerId) {
-//        this.playerId = playerId;
-//    }
 
     public Boolean getPlayerWon() {
         return playerWon;

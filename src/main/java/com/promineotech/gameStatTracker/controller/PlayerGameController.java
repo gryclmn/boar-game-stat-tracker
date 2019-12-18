@@ -1,7 +1,5 @@
 package com.promineotech.gameStatTracker.controller;
 
-import com.promineotech.gameStatTracker.entity.Game;
-import com.promineotech.gameStatTracker.entity.PlayerGame;
 import com.promineotech.gameStatTracker.requests.PlayerGameRequest;
 import com.promineotech.gameStatTracker.service.PlayerGameService;
 import org.springframework.beans.factory.annotation.Autowired;

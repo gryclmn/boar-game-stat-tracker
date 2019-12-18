@@ -35,35 +35,4 @@ public class PlayerGameRequest {
         this.playerResults = playerResults;
     }
 
-//    public Long getPlayerId() {
-//        return playerId;
-//    }
-//
-//    public void setPlayerId(Long playerId) {
-//        this.playerId = playerId;
-//    }
-//
-//    public Boolean getPlayerWon() {
-//        return playerWon;
-//    }
-//
-//    public void setPlayerWon(Boolean playerWon) {
-//        this.playerWon = playerWon;
-//    }
-//
-//    public Integer getPlayerRank() {
-//        return playerRank;
-//    }
-//
-//    public void setPlayerRank(Integer playerRank) {
-//        this.playerRank = playerRank;
-//    }
-//
-//    public Double getPlayerPoints() {
-//        return playerPoints;
-//    }
-//
-//    public void setPlayerPoints(Double playerPoints) {
-//        this.playerPoints = playerPoints;
-//    }
 }
