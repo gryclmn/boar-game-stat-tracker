@@ -1,11 +1,19 @@
 package com.promineotech.gameStatTracker.service;
 
+import com.promineotech.gameStatTracker.entity.Game;
 import com.promineotech.gameStatTracker.entity.Player;
+import com.promineotech.gameStatTracker.entity.PlayerGame;
 import com.promineotech.gameStatTracker.repository.PlayerRepository;
+import com.promineotech.gameStatTracker.view.PlayerHistory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Service
 public class PlayerService {
@@ -14,6 +22,9 @@ public class PlayerService {
 
     @Autowired
     private PlayerRepository repo;
+
+    @Autowired
+    PlayerGameService playerGameService;
 
     public Player getPlayerById(Long id) {
         try {
@@ -53,4 +64,34 @@ public class PlayerService {
         }
     }
 
+    public PlayerHistory getPlayerHistoryById(Long id) throws Exception {
+        try {
+            PlayerHistory playerHistory = new PlayerHistory();
+            playerHistory.setPlayer(getPlayerById(id));
+            // TODO optimize here by only getting PlayerGames with user's id
+            Iterable<PlayerGame> playerGames = playerGameService.getPlayerGames();
+
+            // Generate list of games player has had. There must be a better way to do this through Spring?
+            Set<Game> gamesList = new HashSet<>();
+            for (PlayerGame pg : playerGames) {
+                if (pg.getPlayer().getId() == id) {
+                    gamesList.add(pg.getGame());
+
+                    if (pg.getPlayerWon()) {
+                        playerHistory.setWins(playerHistory.getWins() + 1);
+                    } else {
+                        playerHistory.setLosses((playerHistory.getLosses() + 1));
+                    }
+                }
+            }
+            playerHistory.setGames(gamesList);
+
+
+
+            return playerHistory;
+        } catch (Exception e) {
+            logger.error("Exception occurred while trying to retrieve player history: " + id, e);
+            throw e;
+        }
+    }
 }

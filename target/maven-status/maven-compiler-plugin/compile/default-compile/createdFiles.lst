@@ -1,5 +1,6 @@
 com\promineotech\gameStatTracker\App.class
 com\promineotech\gameStatTracker\requests\PlayerGameRequest.class
+com\promineotech\gameStatTracker\view\PlayerHistory.class
 com\promineotech\gameStatTracker\controller\GameController.class
 com\promineotech\gameStatTracker\entity\Player.class
 com\promineotech\gameStatTracker\service\PlayerService.class
@@ -12,5 +13,4 @@ com\promineotech\gameStatTracker\controller\PlayerGameController.class
 com\promineotech\gameStatTracker\view\PlayerResult.class
 com\promineotech\gameStatTracker\entity\PlayerGame.class
 com\promineotech\gameStatTracker\service\GameService.class
-com\promineotech\gameStatTracker\view\GameSession.class
 com\promineotech\gameStatTracker\repository\PlayerGameRepository.class

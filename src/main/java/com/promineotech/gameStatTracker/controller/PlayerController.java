@@ -42,4 +42,13 @@ public class PlayerController {
         }
     }
 
+    @RequestMapping(value="/{id}/history", method = RequestMethod.GET)
+    public ResponseEntity<Object> getPlayerHistory(@PathVariable Long id) {
+        try {
+            return new ResponseEntity<Object>(service.getPlayerHistoryById(id), HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<Object>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+
 }

@@ -36,8 +36,7 @@ public class PlayerGameService {
         return repo.findAll();
     }
 
-    // TODO return GameSession here? Need new GameSession View?
-    public PlayerGame createPlayerGame(PlayerGameRequest playerGameRequest) {
+    public PlayerGameRequest createPlayerGame(PlayerGameRequest playerGameRequest) {
         for (PlayerResult result : playerGameRequest.getPlayerResults()) {
 
             PlayerGame playerGame = new PlayerGame(
@@ -52,7 +51,7 @@ public class PlayerGameService {
             repo.save(playerGame);
         }
 
-        return new PlayerGame();
+        return playerGameRequest;
     }
 
     public PlayerGame updatePlayerGame(PlayerGameRequest playerGameRequest, Long id) throws Exception {
