@@ -1,6 +1,7 @@
 package com.promineotech.gameStatTracker.controller;
 
 import com.promineotech.gameStatTracker.entity.Game;
+import com.promineotech.gameStatTracker.entity.PlayerGame;
 import com.promineotech.gameStatTracker.requests.PlayerGameRequest;
 import com.promineotech.gameStatTracker.service.PlayerGameService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,10 +36,10 @@ public class PlayerGameController {
     }
 
     @RequestMapping(value="/{id}", method=RequestMethod.PUT)
-    public ResponseEntity<Object> updatePlayerGame(@RequestBody Game game, @PathVariable Long id) {
+    public ResponseEntity<Object> updatePlayerGame(@RequestBody PlayerGameRequest playerGameRequest, @PathVariable Long id) {
         try {
-//            return new ResponseEntity<Object>(service.updatePlayerGame(game, id), HttpStatus.OK);
-            return new ResponseEntity<Object>(null, HttpStatus.OK);
+            return new ResponseEntity<Object>(service.updatePlayerGame(playerGameRequest, id), HttpStatus.OK);
+//            return new ResponseEntity<Object>(null, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<Object>(e.getMessage(), HttpStatus.NOT_FOUND);
         }

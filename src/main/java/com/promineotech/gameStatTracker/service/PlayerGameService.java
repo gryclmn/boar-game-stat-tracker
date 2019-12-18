@@ -55,22 +55,42 @@ public class PlayerGameService {
         return new PlayerGame();
     }
 
+    // TODO - this is not working because HTTP has playerId and gameId instead of player and game objects
+    // May need to use a PlayerGameRequest here just like createPlayerGame() above?
 
-//    private Long id;
-//    private Date datePlayed;
-//    private Game game;
-//    private Player player;
-//    private Boolean playerWon;
-//    private Integer playerRank;
-//    private Double playerPoints;
+    public PlayerGame updatePlayerGame(PlayerGameRequest playerGameRequest, Long id) throws Exception {
+        try {
+            PlayerResult result = playerGameRequest.getPlayerResults().iterator().next();
+            PlayerGame oldPlayerGame = repo.findOne(id);
+            oldPlayerGame.setDatePlayed(playerGameRequest.getDatePlayed());
+            oldPlayerGame.setGame(
+                gameService.getGameById(playerGameRequest.getGameId())
+            );
+            oldPlayerGame.setPlayer(
+                playerService.getPlayerById(result.getPlayerId())
+            );
+            oldPlayerGame.setPlayerWon(result.getIsWinner());
+            oldPlayerGame.setPlayerRank(result.getRank());
+            oldPlayerGame.setPlayerPoints(result.getPoints());
+            return repo.save(oldPlayerGame);
+        } catch (Exception e) {
+            logger.error("Exception occurred while trying to update a PlayerGame: " + id, e);
+            throw new Exception("Unable to update PlayerGame.");
+        }
+    }
 
 //    public PlayerGame updatePlayerGame(PlayerGame playerGame, Long id) throws Exception {
 //        try {
 //            PlayerGame oldPlayerGame = repo.findOne(id);
-//            oldPlayerGame.setName(playerGame.getName());
+//            oldPlayerGame.setDatePlayed(playerGame.getDatePlayed());
+//            oldPlayerGame.setGame(playerGame.getGame());
+//            oldPlayerGame.setPlayer(playerGame.getPlayer());
+//            oldPlayerGame.setPlayerWon(playerGame.getPlayerWon());
+//            oldPlayerGame.setPlayerRank(playerGame.getPlayerRank());
+//            oldPlayerGame.setPlayerPoints(playerGame.getPlayerPoints());
 //            return repo.save(oldPlayerGame);
 //        } catch (Exception e) {
-//            logger.error("Exception occurred while trying to udpate a PlayerGame: " + id, e);
+//            logger.error("Exception occurred while trying to update a PlayerGame: " + id, e);
 //            throw new Exception("Unable to update PlayerGame.");
 //        }
 //    }
